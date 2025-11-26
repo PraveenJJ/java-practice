@@ -1,6 +1,6 @@
 package com.problem.practice.questions;
 
-import java.util.Scanner;
+import com.problem.practice.questions.utils.Helper;
 
 /**
  * To reverse a number
@@ -14,11 +14,12 @@ import java.util.Scanner;
 public class ReverseNumber {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a number: ");
-        int inputNumber = scanner.nextInt();
-        String reveredString = "";
+        int inputNumber = Helper.getNumberInputFromUser();
+        System.out.println("Reversed number: " + reverseNumber(inputNumber));
+    }
 
+    private static String reverseNumber(int inputNumber) {
+        String reveredString = "";
         while (inputNumber != 0) {
             // remainder will be last digit
             int lastDigit = inputNumber % 10;
@@ -29,8 +30,7 @@ public class ReverseNumber {
             // quotient excludes last digit
             inputNumber = inputNumber / 10;
         }
-
-        System.out.println("Reversed number: " + reveredString);
+        return reveredString;
     }
 
 }
