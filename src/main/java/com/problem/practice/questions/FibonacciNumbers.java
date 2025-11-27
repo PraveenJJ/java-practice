@@ -3,14 +3,14 @@ package com.problem.practice.questions;
 import com.problem.practice.questions.utils.Helper;
 
 /**
- * Fibonacci series pattern
- * initialize a = 0
- * initialize b = 1
+ * To print Fibonacci series
+ * set --> a = 0
+ * set --> b = 1
  * logic --> nextTerm = a + b
- * Print nextTerm
- * set a = b
- * set b = nextTerm
- * repeat logic
+ * swap --> a = b
+ * swap --> b = nextTerm
+ * repeat logic till n iterations
+ * print --> nextTerm as per n
  * Problem: https://prepinsta.com/interview-preparation/technical-interview-questions/most-asked-coding-questions-in-placements/
  */
 public class FibonacciNumbers {
