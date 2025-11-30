@@ -1,6 +1,6 @@
 package com.problem.practice.questions;
 
-import com.problem.practice.questions.utils.Helper;
+import com.problem.practice.utils.Helper;
 
 /**
  * To find GCD for 2 numbers
