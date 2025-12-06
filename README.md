@@ -8,3 +8,4 @@
 4. [Anagram Or Not](./src/main/java/com/problem/practice/questions/AnagramOrNot.java)
 5. [Perfect Number](./src/main/java/com/problem/practice/questions/PerfectNumber.java)
 6. [Palindrome](./src/main/java/com/problem/practice/questions/Palindrome.java)
+7. [Frequency](./src/main/java/com/problem/practice/questions/Frequency.java)
